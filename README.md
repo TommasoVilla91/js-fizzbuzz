@@ -14,9 +14,10 @@
 
 # Espressione
 `for ()` per numeri da 1 a 100
-`if ()` per individuare multipli di 3
-`else if` per individuare multipli di 5
-`else` per individuare multipli di 3 e 5
+`if ()` per individuare divisibili per 3
+`else if` per individuare divisibili per 5
+`else if` per individuare divisibili per 3 e 5
+`else` numeri non divisibili nè per 3 nè per 5
 
 ```
 FOR (numeri da 1 a 100)
@@ -24,6 +25,8 @@ FOR (numeri da 1 a 100)
         stampo "Fizz"
     ALTRIMENTI SE numero è divisibile per 5
         stampo "Buzz"
-    ALTRIMENTI numero è divisibile per 3 && 5
+    ALTRIMENTI SE numero è divisibile per 3 && 5
         stampo "FizzBuzz"
+    ALTRIMENTI
+        stampo numero
 ```
